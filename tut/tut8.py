@@ -20,7 +20,7 @@ while True:
 
     cv2.imshow('frame', frame)
 
-    if cv2.waitKey(1) == ord('q'):
+    if cv2.waitKey(1) == ord('q') or cv2.waitKey(1) == ord('c') or cv2.waitKey(1) == ord('p'):
         break
 
 cap.release()
